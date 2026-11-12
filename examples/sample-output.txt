@@ -1,0 +1,5 @@
+PASS examples/good.md
+FAIL examples/missing-alt.md: line 4: ![](photo.png) has no alt text
+FAIL examples/empty-alt.md: line 4: ![ ](logo.png) has an empty alt text
+PASS examples/no-images.md
+4 file(s) checked, 2 passed, 2 failed
